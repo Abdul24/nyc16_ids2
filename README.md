@@ -59,8 +59,8 @@ Tuesday | Thursday
 -----
 
 ### Class 2: Introduction to Linear Algebra and Statistics in Python
-* Introduction to Linear Algebra in Python ([notebook](notebooks/02_intro_numpy_linear_algebra.ipynb))
-* Introduction to Statistics in Python ([notebook](notebooks/02_intro_scipy_statistics.ipynb))
+* Introduction to Linear Algebra in Python ([notebook](notebooks/02_intro_linalg.ipynb))
+* Introduction to Statistics in Python ([notebook](notebooks/02_intro_stats.ipynb))
 
 **Homework:**
 * Work through as much of the [NumPy quickstart guide](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html) as you can.
