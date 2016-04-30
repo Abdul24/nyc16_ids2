@@ -12,6 +12,7 @@ Tuesday | Thursday
 --- | ---
 4/19: [Introduction to Python and Version Control](#class-1-introduction-to-python-and-version-control) | 4/21: [Introduction to Linear Algebra and Statistics in Python](#class-2-introduction-to-linear-algebra-and-statistics-in-python)
 4/26: [Pandas and Exploratory Data Analysis](#class-3-pandas-and-exploratory-data-analysis) | 4/28: [Pandas and Data Visualization](#class-4-pandas-and-data-visualization)
+5/3: [Supervised Machine Learning and Basic Model Evaluation](#class-5-supervised-machine-learning-and-basic-model-evaluation) | 5/5: [Unsupervised Machine Learning and Basic Model Evaluation](#class-6-unsupervised-machine-learning-and-basic-model-evaluation)
 
 ### Before the Course Begins (Prework):
 * Install [Git](http://git-scm.com/downloads).
