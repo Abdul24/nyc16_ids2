@@ -5,13 +5,13 @@
 * **May 3:** Decide on project, either your own, or entering a competition
     * [Public data sources](public_data.md)
     * Data science competitions: 
-        *[Kaggle](http://www.kaggle.com/)
-        *[DrivenData](http://www.drivendata.org/competitions/)
-        *[CrowdANALYTIX](https://www.crowdanalytix.com/community)
-        *[TunedIT](http://tunedit.org/challenges)
-        *[InnoCentive](https://www.innocentive.com/ar/challenge/browse)
+       * [Kaggle](http://www.kaggle.com/)
+       * [DrivenData](http://www.drivendata.org/competitions/)
+       * [CrowdANALYTIX](https://www.crowdanalytix.com/community)
+       * [TunedIT](http://tunedit.org/challenges)
+       * [InnoCentive](https://www.innocentive.com/ar/challenge/browse)
     * Statistical Competitions:
-        *[International Association for Statistical Computing](http://www.iasc-isi.org/node/276) - contains links to past competitions in [2014](http://www.iasc-isi.org/node/227), [2013](http://www.iasc-isi.org/node/189)
+      * [International Association for Statistical Computing](http://www.iasc-isi.org/node/276) - contains links to past competitions in [2014](http://www.iasc-isi.org/node/227), [2013](http://www.iasc-isi.org/node/189)
 * **May 10:** Project check-in
 * **May 19:** Peer review
     * [Peer review guidelines](peer_review.md)
