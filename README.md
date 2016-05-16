@@ -14,6 +14,7 @@ Tuesday | Thursday
 4/26: [Pandas and Exploratory Data Analysis](#class-3-pandas-and-exploratory-data-analysis) | 4/28: [Pandas and Data Visualization](#class-4-pandas-and-data-visualization)
 5/3: [Supervised Machine Learning and Basic Model Evaluation](#class-5-supervised-machine-learning-and-basic-model-evaluation) | 5/5: [Unsupervised Machine Learning and Basic Model Evaluation](#class-6-unsupervised-machine-learning-and-basic-model-evaluation)
 5/10: [Advanced Supervised Learning](#class-7-advanced-supervised-learning) | 5/12: [Data Modeling: Feature Engineering and Basic Cross Validation](#class-8-feature-engineering-and-basic-cross-validation)
+5/17: [Data Modeling: Regularization, Feature Decomposition](#class-9-feature-decomposition-and-regularization) | 5/19: [Advanced Unsupervised Learning](#class-10-advanced-unsupervised-learning)
 
 ### Before the Course Begins (Prework):
 * Install [Git](http://git-scm.com/downloads).
@@ -180,6 +181,35 @@ Tuesday | Thursday
 * Harvard CS109: [Cross-Validation: The Right and Wrong Way](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_10_cross_val.ipynb)
 * Journal of Cheminformatics: [Cross-validation pitfalls when selecting and assessing regression and classification models](http://www.jcheminf.com/content/pdf/1758-2946-6-10.pdf)
 * For a recap of today's lesson on GridSearchCV, plus a comparison with RandomizedSearchCV, watch [How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=8) (28 minutes)
+
+-----
+
+### Class 9: Feature Decomposition and Regularization
+* Feature Decomposition and Regularization: PCA, Lasso/L1 Regularization, Ridge/L2 Regularization [notebook](notebooks/09_feature_decomposition_regularization.ipynb)
+
+**PCA Resources**
+* Jeremy Kun's [blog](https://jeremykun.com) is an excellent source of "mathy" explanations of a variety of algorithms and approaches used in Data Science, but I find his explanation of [PCA](https://jeremykun.com/2012/06/28/principal-component-analysis/) is especially good.
+* Sebastian Raschka's [explanation of PCA](http://sebastianraschka.com/Articles/2015_pca_in_3_steps.html) is also very informative. In general, you should use/understand the method as more for explanatory than for predictive purposes.
+
+**Regularization Resources:**
+* This [notebook](http://nbviewer.ipython.org/github/luispedro/PenalizedRegression/blob/master/PenalizedRegression.ipynb) from chapter 7 of [Building Machine Learning Systems with Python](https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python) has a nice long example of regularized linear regression.
+* The scikit-learn user guide for [Generalized Linear Models](http://scikit-learn.org/stable/modules/linear_model.html) explains the different variations of regularization.
+* Section 6.2 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (14 pages) introduces both ridge regression and lasso regression. Or, watch the related videos on [ridge regression](https://www.youtube.com/watch?v=cSKzqb0EKS0&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI&index=6) (13 minutes) and [lasso regression](https://www.youtube.com/watch?v=A5I1G1MfUmA&index=7&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI) (15 minutes).
+* Caltech's Learning From Data course has a great video introducing [regularization](http://work.caltech.edu/library/121.html) (8 minutes) that builds upon their video about the [bias-variance tradeoff](http://work.caltech.edu/library/081.html).
+* For a math-ier explanation of regularization, watch the last four videos (30 minutes) from week 3 of Andrew Ng's [awesome and famous machine learning course](https://www.coursera.org/learn/machine-learning/home/info), or read the [related lecture notes](http://www.holehouse.org/mlclass/07_Regularization.html) compiled by a student.
+* There are some special considerations when using dummy encoding for categorical features with a regularized model. [This Cross Validated Q&A](https://stats.stackexchange.com/questions/69568/whether-to-rescale-indicator-binary-dummy-predictors-for-lasso) debates whether the dummy variables should be standardized (along with the rest of the features), and a comment on this [blog post](http://appliedpredictivemodeling.com/blog/2013/10/23/the-basics-of-encoding-categorical-data-for-predictive-models) recommends that the baseline level should not be dropped.
+
+-----
+
+### Class 10: Advanced Unsupervised Learning
+* Hierarchical clustering and different distance metrics [notebook](notebooks/10_hierarchical_clustering_and_distance_metrics.ipynb)
+
+**Hierarchical Clustering Resources:**
+* scikit-learn documentation on [hierarchical clustering](http://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering)
+* An Introduction to Statistical Learning has a useful video on [hierarchical clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (15 minutes)
+
+**Distance Metrics Resources:**
+* There are lots of different distance metrics that can be used in Scipy. [distance metrics in scipy](http://docs.scipy.org/doc/scipy/reference/spatial.distance.html)-----
 
 -----
 
