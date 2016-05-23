@@ -15,6 +15,7 @@ Tuesday | Thursday
 5/3: [Supervised Machine Learning and Basic Model Evaluation](#class-5-supervised-machine-learning-and-basic-model-evaluation) | 5/5: [Unsupervised Machine Learning and Basic Model Evaluation](#class-6-unsupervised-machine-learning-and-basic-model-evaluation)
 5/10: [Advanced Supervised Learning](#class-7-advanced-supervised-learning) | 5/12: [Data Modeling: Feature Engineering and Basic Cross Validation](#class-8-feature-engineering-and-basic-cross-validation)
 5/17: [Data Modeling: Regularization, Feature Decomposition](#class-9-feature-decomposition-and-regularization) | 5/19: [Advanced Unsupervised Learning](#class-10-advanced-unsupervised-learning)
+5/24: [Advanced Model Evaluation and Pipelines](#class-11-advanced-model-evaluation-and-data-pipelines)
 
 ### Before the Course Begins (Prework):
 * Install [Git](http://git-scm.com/downloads).
@@ -210,6 +211,28 @@ Tuesday | Thursday
 
 **Distance Metrics Resources:**
 * There are lots of different distance metrics that can be used in Scipy. [distance metrics in scipy](http://docs.scipy.org/doc/scipy/reference/spatial.distance.html)-----
+
+-----
+
+### Class 11: Advanced Model Evaluation and Data Pipelines
+* Advanced model evaluation and data pipelines [notebook](notebooks/11_advanced_model_evaluation_and_pipelines.ipynb)
+    * Null accuracy
+    * Confusion matrix
+    * Sensitivity, Specificity, Recall, Precision, all the metrics
+    * ROC curves and AUC
+    * Data Pipelines
+
+**ROC Resources:**
+* Rahul Patwari has a great video on [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutes).
+* [An introduction to ROC analysis](http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf) is a very readable paper on the topic.
+* These [lesson notes](http://ebp.uga.edu/courses/Chapter%204%20-%20Diagnosis%20I/8%20-%20ROC%20curves.html) from a course at the University of Georgia (my alma mater!) include some simple, real-world examples of the use of ROC curves.
+* ROC curves can be used across a wide variety of applications, such as [comparing different feature sets](http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf) for detecting fraudulent Skype users, and [comparing different classifiers](http://www.cse.ust.hk/nevinZhangGroup/readings/yi/Bradley_PR97.pdf) on a number of popular datasets.
+* This blog post about [Amazon Machine Learning](https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/) contains a neat [graphic](https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png) showing how classification threshold affects different evaluation metrics.
+* scikit-learn has an incredibly active [mailing list](https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html) that is often much more useful than Stack Overflow for researching a particular function.
+
+**Pipeline Resources:**
+* [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps into a single, repeatable data flow
+* [Practical Data Science in Python](http://radimrehurek.com/data_science_python/) is a long and well-written notebook that includes the use of scikit-learn's Pipeline.
 
 -----
 
