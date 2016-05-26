@@ -15,7 +15,7 @@ Tuesday | Thursday
 5/3: [Supervised Machine Learning and Basic Model Evaluation](#class-5-supervised-machine-learning-and-basic-model-evaluation) | 5/5: [Unsupervised Machine Learning and Basic Model Evaluation](#class-6-unsupervised-machine-learning-and-basic-model-evaluation)
 5/10: [Advanced Supervised Learning](#class-7-advanced-supervised-learning) | 5/12: [Data Modeling: Feature Engineering and Basic Cross Validation](#class-8-feature-engineering-and-basic-cross-validation)
 5/17: [Data Modeling: Regularization, Feature Decomposition](#class-9-feature-decomposition-and-regularization) | 5/19: [Advanced Unsupervised Learning](#class-10-advanced-unsupervised-learning)
-5/24: [Advanced Model Evaluation and Pipelines](#class-11-advanced-model-evaluation-and-data-pipelines) | 
+5/24: [Advanced Model Evaluation and Pipelines](#class-11-advanced-model-evaluation-and-data-pipelines) | 5/26: [Project Presentations and Course Wrap-up](#class-12-project-presentations-and-where-to-go-from-here)
 
 ### Before the Course Begins (Prework):
 * Install [Git](http://git-scm.com/downloads).
@@ -234,6 +234,16 @@ Tuesday | Thursday
 * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps into a single, repeatable data flow
 * [Practical Data Science in Python](http://radimrehurek.com/data_science_python/) is a long and well-written notebook that includes the use of scikit-learn's Pipeline.
 
+-----
+
+### Class 12: Project Presentations and Where To Go From Here
+* Project presentations!
+* [What Have I Not Covered and Where to Go From Here?](notebooks/12_oh_god_what_next.ipynb)
+    * Natural Language Processing
+    * Neural Networks and Deep Learning
+    * Recommendation Systems
+    * Big Data
+    
 -----
 
 ## Bonus Resources
